@@ -28,7 +28,7 @@ function findWeatherDetails() {
     httpRequestAsync(searchLink, theResponse);
   }
 }
-
+// .
 function theResponse(response) {
   let jsonObject = JSON.parse(response);
   cityName.innerHTML = jsonObject.name;
